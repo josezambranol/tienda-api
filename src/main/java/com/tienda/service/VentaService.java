@@ -9,13 +9,11 @@ import com.tienda.exception.StockInsuficienteException;
 import com.tienda.repository.ProductoRepository;
 import com.tienda.repository.UsuarioRepository;
 import com.tienda.repository.VentaRepository;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-@Service
 public class VentaService {
 
     private final VentaRepository ventaRepository;
