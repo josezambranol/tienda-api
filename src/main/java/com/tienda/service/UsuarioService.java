@@ -3,11 +3,9 @@ package com.tienda.service;
 import com.tienda.entity.Usuario;
 import com.tienda.exception.RecursoNoEncontradoException;
 import com.tienda.repository.UsuarioRepository;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public class UsuarioService {
 
     private final UsuarioRepository usuarioRepository;
